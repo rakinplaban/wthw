@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(16, 11, 123);
+}
+
+.imgs {
+  margin: -1em 15em 0em 15em;
+  padding: 0px;
+}
+
+.fig {
+  background: #F6910C;
+  margin-top: -5px;
+  padding: 11px;
+}
+
+.fig1 {
+  background: linear-gradient(rgb(239, 223, 223), blue, rgb(239, 223, 223));
+  margin-top: -16px;
+  padding: 7px;
+}
+
+@media screen and (max-width: 500px) {
+  .fig {
+    background: #F6910C;
+    margin-top: -4px;
+    padding: 5px;
+  }
+  .fig1 {
+    background: linear-gradient(rgb(239, 223, 223), blue);
+    margin-top: -7px;
+    padding: 3px;
+  }
+}
+.rsec {
+  background: #04a0fa;
+}
+
+.heading {
+  color: aliceblue;
+}/*# sourceMappingURL=styles.css.map */
