@@ -28,7 +28,7 @@ body{
     }
     
     .fig1{
-        background: linear-gradient(rgb(239, 223, 223),blue);
+        background: linear-gradient(rgb(239, 223, 223),blue, rgb(239, 223, 223));
         margin-top:-7px;
         padding: 3px;
     }
@@ -38,5 +38,7 @@ body{
     background: #04a0fa;
 }
 .heading{
-    color:aliceblue
+    color:aliceblue;
+    background: radial-gradient(white,#2067ff);
+    // background: -gradient(#2067ff,white);
 }
