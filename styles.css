@@ -108,7 +108,7 @@ body {
   padding-left: 5px;
 }
 
-#leftmenu1 ul li {
+.menubtn1 ul li {
   width: 122px;
   line-height: 13px;
   margin: 7px 0px 7px -32px;
@@ -117,7 +117,7 @@ body {
   text-align: left;
 }
 
-#leftmenu1 ul li a {
+.menubtn1 ul li a {
   font: Arial;
   font-weight: 700;
   font-size: 11px;
