@@ -1,5 +1,8 @@
 $radical_color : radial-gradient(circle farthest-side at 50% 10%,rgb(202, 194, 194),#2067ff);
 
+$blue_white_grd : linear-gradient(rgb(239, 223, 223),blue,rgb(239, 223, 223));
+
+
 body{
     background-color: rgb(16, 11, 123);
 }
@@ -17,7 +20,7 @@ body{
 }
 
 .fig1{
-    background: linear-gradient(rgb(239, 223, 223),blue,rgb(239, 223, 223));
+    background: $blue_white_grd;
     margin-top:-16px;
     padding: 7px;
 }
@@ -45,7 +48,7 @@ body{
     // background: -gradient(#2067ff,white);
 }
 
-#wrap{
+.wrap{
     width:780px;
 	margin:0 auto;
 	text-align:left;
@@ -97,7 +100,7 @@ body{
 }
 .uperbtn{
 	text-align: center;
-    width:117px;
+    width:122.5px;
 	line-height:20px;
 	font-size:13px;
 	background: $radical_color;
@@ -108,9 +111,10 @@ body{
 #leftmenu1 ul li{
 	width:122px;
 	line-height:13px;
-	margin-bottom:7px;
+	margin:7px 0px 7px -32px;
 	background: $radical_color;
 	display:block;
+	text-align: left;
 }
 #leftmenu1 ul li a{
 	font:Arial;
@@ -139,7 +143,7 @@ body{
 	margin-bottom:7px;
 	background: $radical_color;
 	display:block;
-/*	padding-bottom:23px;*/
+	text-align: left;
 }
 #leftmenu2 ul li a{
 	font:Arial;
@@ -148,6 +152,7 @@ body{
 	color:#fff;
 	margin:0 auto 0 20px;
 	text-decoration:none;
+	
 }
 .leftnavadd{
 	margin:8px 5px 0 8px;
@@ -254,7 +259,7 @@ body{
 #btmbar{
     height:22px;
 	width:780px;
-	background:url(images/btmbar.gif) repeat-x;
+	background: $blue_white_grd;
 }		 	 	
 #footer{
  a{

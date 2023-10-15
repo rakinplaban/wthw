@@ -40,7 +40,7 @@ body {
   background: radial-gradient(white, #2067ff);
 }
 
-#wrap {
+.wrap {
   width: 780px;
   margin: 0 auto;
   text-align: left;
@@ -99,7 +99,7 @@ body {
 
 .uperbtn {
   text-align: center;
-  width: 117px;
+  width: 122.5px;
   line-height: 20px;
   font-size: 13px;
   background: radial-gradient(circle farthest-side at 50% 10%, rgb(202, 194, 194), #2067ff);
@@ -111,9 +111,10 @@ body {
 #leftmenu1 ul li {
   width: 122px;
   line-height: 13px;
-  margin-bottom: 7px;
+  margin: 7px 0px 7px -32px;
   background: radial-gradient(circle farthest-side at 50% 10%, rgb(202, 194, 194), #2067ff);
   display: block;
+  text-align: left;
 }
 
 #leftmenu1 ul li a {
@@ -145,7 +146,7 @@ body {
   margin-bottom: 7px;
   background: radial-gradient(circle farthest-side at 50% 10%, rgb(202, 194, 194), #2067ff);
   display: block;
-  /*	padding-bottom:23px;*/
+  text-align: left;
 }
 
 #leftmenu2 ul li a {
@@ -275,7 +276,7 @@ body {
 #btmbar {
   height: 22px;
   width: 780px;
-  background: url(images/btmbar.gif) repeat-x;
+  background: linear-gradient(rgb(239, 223, 223), blue, rgb(239, 223, 223));
 }
 
 #footer a {
