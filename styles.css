@@ -127,7 +127,7 @@ body {
 
 #leftmenu2bg {
   width: 134px;
-  /*	height:273px; */
+  height: 284px;
   background: #0498FA;
   margin: 0 0 7px 6px;
 }
@@ -135,8 +135,8 @@ body {
 #leftmenu2 {
   width: 122px;
   margin: 5px 7px 4px 5px;
-  background: url(images/menubg2.jpg) repeat-x;
-  padding-bottom: 22px;
+  background: #50bffe;
+  padding-bottom: 2px;
 }
 
 #leftmenu2 ul li {
